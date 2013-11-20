@@ -1,4 +1,140 @@
-h1 {
-  font-size: 72px;
-  color: red;
+$menu-tone: #1867ac;
+$header-font-stack: 'helvetica', sans-serif;
+$summit: #590000;
+body {
+margin: 0px;
+padding: 0px;
+}
+
+#logo {
+  position: absolute;
+  top: 100px;
+  left: 10%;
+  z-index: 90;
+}
+#subMenu {
+position: fixed;
+top: 0px;
+width: 100%;
+  height: 50px;
+  background-color: $menu-tone;
+  text-align: center;
+  z-index: 100;
+  #nav {
+  margin: 0px;
+  padding: 0px;
+  li { 
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    display: inline;
+
+  a {
+  float: left;
+  display: inline;
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+  font-family: $header-font-stack; 
+  padding-left: 15px; 
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  }
+a:hover {
+  color: $summit;
+  }
+  }
+ } 
+  #donate {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  background-color: $summit;
+  border: 0px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  width: 100px;
+  height: 35px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  
+  }
+} 
+
+
+#sec-container{
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  padding: 0px;
+  margin: 0px;
+  #sec1 {  
+  background-image:url(/river.jpg);
+
+  }
+  
+#sec2{
+  background-image:url(/building.jpg);	
+  #freemarket { 
+  background-color: $menu-tone;
+  width: 100%;
+  height: 50px;
+  float: top;
+  color: white;
+  font-family: $header-font-stack; 
+  
+  }
+  }
+.panel {
+  height: 700px;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  top: 0px;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+  .mission {
+  position: relative;	
+  display: block;
+  font-family: $header-font-stack;
+  font-size: 30px;
+  color: white;
+  left: 500px;
+  top: 10%;
+  width: 700px;
+  height: 400px;
+  background-color: rgba(50, 75, 100, 0.7);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; /* future proofing */
  }
+  h1 { 
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+  p {
+  margin: 0px;  
+ }
+}
+
+#sec3 {
+  height: 700px;
+  width: 100%;
+  padding: 0px;
+  top: 1400px;
+  background-color: red;
+  h1 { 
+  margin: 0px;
+  } 
+}
+}
+

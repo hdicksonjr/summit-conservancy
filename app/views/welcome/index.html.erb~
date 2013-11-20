@@ -1,0 +1,28 @@
+ 
+<div id="subMenu">
+  <a class="listnav" id="one" href="#sec1">our mission</a>
+  <a class="listnav" id="two" href="#sec2">projects</a>
+  <a class="listnav" id="three" href="#sec3">board</a>
+</div>
+
+<div id="sec-container">
+
+<div id="sec1">
+  <div id="mission"> 
+	  <h1>our goals</h1>
+	  <ul>
+            <li>As we see it, the future of Summit is a sustainable one</li>
+	    <li>Creating positive and lasting environmental change</li>
+	    <li>Building innovative community partnerships to ensure a healthy diverse environment for years to come</li>
+    </ul>
+  </div>
+</div>
+<div id="sec2">
+  <h1>text about more summit conservancy stuff</h1>
+</div>
+
+<div id="sec3">
+  <h1>text about more summit conservancy things</h1>
+</div>
+
+</div>
